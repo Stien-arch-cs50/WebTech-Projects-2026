@@ -2,37 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Heading Sampling</title>
+  <title>Donation Form</title>
 </head>
 <body>
-<!-- Heading tag size samples -->
-  <h1>Heading Sample Size h1</h1>
-  <h2>Heading Sample Size h2</h2>
-  <h3>Heading Sample Size h3</h3>
-  <h4>Heading Sample Size h4</h4>
-  <h5>Heading Sample Size h5</h5>
-  <h6>Heading Sample Size h6</h6><hr><hr>
-         <!-- 1st Paragraph starts here -->
-<p>
-    <h3>First Para</h3>
-    <strong>Sun rises </strong>
-         <!-- Double break -->
-    <br><br>
-    <em>Hello ? <br><br>
-        The sun continues to embark on it's journey ~ as protons fuse into one. </em><br><br>
-    <small><mark>--Sun rose</mark></small>
-         <!-- Double Thematic break -->
-    <hr><hr>
-</p>
-         <!-- 2nd Paragraph starts here -->
-<p>
-    <h3>Second Para</h3>
-    <strong>A Moonlit Night </strong><br><br>
-    <em>Hello ?</em> <br><br>
-        The <em>Full Moon</em> shines in it's entire glory in the <em> dark nights </em>~ with it's mesmerizing glow.   </em><br><br>
-    <small><mark>--Lunar Recepticle</mark></small>
-         <!-- Theamatic break -->
-    <hr>
-</p>     <!-- End of 2nd paragraph -->
-</body>  <!-- End of body -->
+
+  <h2>Donation Form</h2>
+
+  <form>
+    <label for="name">Full Name</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="amount">Donation Amount</label><br>
+    <input type="number" id="amount" name="amount" min="1" required><br><br>
+
+    <label for="method">Payment Method</label><br>
+    <select id="method" name="method" required>
+      <option value="">-- Select --</option>
+      <option value="Credit Card">Credit Card</option>
+      <option value="Debit Card">Debit Card</option>
+      <option value="UPI">UPI</option>
+      <option value="PayPal">PayPal</option>
+    </select><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+
+</body>
 </html>
