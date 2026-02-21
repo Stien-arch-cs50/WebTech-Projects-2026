@@ -1,0 +1,61 @@
+/* Group selector */
+h1, h2 {
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Descendant selector */
+div p {
+    font-size: 1.2em; /* relative unit */
+    color: darkgreen;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    width: 50%; /* relative unit */
+    padding: 1em; /* relative unit */
+    font-size: 1rem; /* relative unit */
+    border: 2px solid gray;
+}
+
+/* Absolute units */
+#mainTitle {
+    font-size: 24px; /* px */
+    margin: 10mm; /* mm */
+    padding: 1cm; /* cm */
+    background-color: lightgray;
+}
+
+/* Relative units */
+.note {
+    font-size: 120%; /* % */
+    margin: 2em; /* em */
+    width: 60vw; /* vw */
+    height: 20vh; /* vh */
+    background-color: lightyellow;
+}
+
+/* Pseudo-classes */
+button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: navy;
+    color: white;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: purple;
+}
