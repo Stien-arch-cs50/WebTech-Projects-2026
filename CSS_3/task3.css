@@ -1,0 +1,62 @@
+/* General box styling */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 3px solid navy;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Box 1: default box-sizing (content-box) */
+.box1 {
+    box-sizing: content-box;
+}
+
+/* Box 2: larger padding and margin */
+.box2 {
+    padding: 30px;
+    margin: 40px;
+    background-color: lightgreen;
+}
+
+/* Box 3: border-box sizing */
+.box3 {
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 20px;
+    background-color: lightcoral;
+}
+
+/* Display properties */
+.block {
+    display: block;
+    background-color: beige;
+    margin: 10px 0;
+}
+
+.inline {
+    display: inline;
+    background-color: yellow;
+    margin: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: pink;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Visibility vs Display */
+.visibility-hidden {
+    visibility: hidden;
+    background-color: lightgray;
+    border: 1px dashed black;
+}
