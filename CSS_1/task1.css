@@ -1,0 +1,19 @@
+/* External CSS file */
+
+/* Element selector */
+h2 {
+    color: navy;
+    text-align: left;
+}
+
+/* Class selector */
+.highlight {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ID selector */
+#mainTitle {
+    border: 2px solid black;
+    padding: 10px;
+}

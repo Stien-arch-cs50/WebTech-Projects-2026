@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 01 - CSS Basics</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Universal selector */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Element selector */
+        p {
+            font-size: 16px;
+            color: darkblue;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkgreen;
+        }
+
+        /* Class selector */
+        .highlight {
+            background-color: yellow;
+            color: red;
+        }
+
+        /* ID selector */
+        #mainTitle {
+            font-size: 28px;
+            background-color: lightgray;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 id="mainTitle" style="color: purple;">Welcome to CSS Lab Task</h1>
+
+    <p>This paragraph is styled using <strong>internal CSS</strong>.</p>
+    <p class="highlight">This text uses a <strong>class selector</strong>.</p>
+    <p>Another normal paragraph styled by internal CSS.</p>
+
+    <div>
+        <h2>External CSS Section</h2>
+        <p>This part will be styled by <strong>external CSS</strong>.</p>
+    </div>
+</body>
+</html>
